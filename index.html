@@ -2,256 +2,222 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Wreck &amp; Roll | Automotive Inventory &amp; Digital Growth</title>
-<meta name="description" content="Remote inventory management and digital marketing for vehicle wreckers, auto recyclers and used auto parts businesses.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>eBay Listing &amp; Inventory Management for Auto Wreckers | Wreck &amp; Roll</title>
+<meta name="description" content="Remote eBay listing management and inventory management for auto wreckers, dismantlers and used auto parts sellers. Pinnacle Professional or direct eBay. Free 25-part trial.">
+<link rel="canonical" href="https://wreckandroll.me/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Wreck &amp; Roll">
+<meta property="og:title" content="eBay Listing &amp; Inventory Management for Auto Wreckers | Wreck &amp; Roll">
+<meta property="og:description" content="Remote eBay listing management and inventory management for auto wreckers, dismantlers and used auto parts sellers. Pinnacle Professional or direct eBay. Free 25-part trial.">
+<meta property="og:url" content="https://wreckandroll.me/">
+<meta property="og:image" content="https://wreckandroll.me/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,800;1,900&display=swap" rel="stylesheet">
-<style>
-:root{
-  --navy:#14213D; --navy-2:#1C2D52; --orange:#F28C38; --orange-dk:#D9741F;
-  --white:#FFFFFF; --mist:#F3F5F8; --ink:#14213D; --muted:#56627A; --line:#DDE2EA;
-  --font:"Barlow", "Helvetica Neue", Arial, sans-serif;
-}
-*{box-sizing:border-box;margin:0}
-html{scroll-behavior:smooth;scroll-padding-top:80px}
-body{font-family:var(--font);color:var(--ink);background:var(--white);font-size:1.0625rem;line-height:1.6;
-  padding-bottom:env(safe-area-inset-bottom,0px)}
-img,svg{max-width:100%;display:block}
-a{color:inherit}
-.wrap{width:min(1120px,100% - 40px);margin-inline:auto}
-:focus-visible{outline:3px solid var(--orange);outline-offset:3px;border-radius:4px}
-
-/* header */
-header{position:sticky;top:0;z-index:10;background:var(--navy);padding-top:env(safe-area-inset-top,0px)}
-.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;height:72px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--white)}
-.brand svg{width:44px;height:44px}
-.brand b{white-space:nowrap;font-weight:900;font-style:italic;font-size:1.45rem;letter-spacing:.01em;line-height:1}
-.brand b span{color:var(--orange)}
-nav{display:flex;gap:28px;align-items:center}
-nav a{color:#C9D1E0;text-decoration:none;font-weight:500}
-nav a:hover{color:var(--white)}
-.btn{display:inline-block;background:var(--orange);color:var(--navy);font-weight:700;text-decoration:none;
-  padding:12px 22px;border-radius:8px;transition:background .15s}
-.btn:hover{background:#F9A35C}
-.btn.ghost{background:transparent;color:var(--white);box-shadow:inset 0 0 0 2px #3A4A6B}
-.btn.ghost:hover{box-shadow:inset 0 0 0 2px var(--orange)}
-@media (max-width:760px){nav a:not(.btn){display:none}}
-
-/* hero */
-.hero{background:var(--navy);color:var(--white);padding:72px 0 96px;position:relative;overflow:hidden}
-.hero .wrap{display:grid;grid-template-columns:1.25fr .75fr;gap:48px;align-items:center}
-.hero h1{font-weight:900;font-style:italic;font-size:clamp(2.6rem,6vw,4.6rem);line-height:.98;letter-spacing:-.005em}
-.hero h1 em{font-style:italic;color:var(--orange)}
-.hero p.lead{margin-top:22px;color:#C9D1E0;font-size:1.2rem;max-width:34em}
-.hero .ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
-.emblem{justify-self:center;width:min(340px,100%)}
-.emblem svg{width:100%;height:auto}
-@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.emblem{width:200px;order:-1;justify-self:start}}
-
-/* sections */
-section{padding:88px 0}
-h2{font-weight:800;font-style:italic;font-size:clamp(1.9rem,3.6vw,2.6rem);line-height:1.1}
-.intro{color:var(--muted);margin-top:12px;max-width:40em}
-
-.services{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:44px}
-.service{border-top:4px solid var(--orange);padding:28px 4px 0}
-.service h3{font-size:1.45rem;font-weight:700}
-.service p{color:var(--muted);margin-top:8px}
-.service ul{margin-top:16px;padding:0;list-style:none}
-.service li{padding:9px 0 9px 28px;border-bottom:1px solid var(--line);position:relative}
-.service li::before{content:"";position:absolute;left:4px;top:17px;width:10px;height:10px;background:var(--navy);border-radius:2px}
-@media (max-width:760px){.services{grid-template-columns:1fr}}
-
-.how{background:var(--mist)}
-.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px;counter-reset:s}
-.step{background:var(--white);border-radius:12px;padding:28px}
-.step::before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;
-  background:var(--navy);color:var(--orange);font-weight:800;font-style:italic;font-size:1.3rem;margin-bottom:16px}
-.step h3{font-size:1.25rem;font-weight:700}
-.step p{color:var(--muted);margin-top:6px}
-@media (max-width:860px){.steps{grid-template-columns:1fr}}
-
-.why .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px 48px;margin-top:40px}
-.why h3{font-size:1.2rem;font-weight:700}
-.why p{color:var(--muted);margin-top:4px}
-@media (max-width:760px){.why .grid{grid-template-columns:1fr}}
-
-.trust{background:var(--mist)}
-.trust .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px}
-.trust .col{background:var(--white);border-radius:12px;padding:28px;border-top:4px solid var(--orange)}
-.trust h3{font-size:1.25rem;font-weight:700}
-.trust ul{list-style:none;padding:0;margin-top:12px}
-.trust li{padding:8px 0 8px 26px;position:relative;color:var(--muted);border-bottom:1px solid var(--line)}
-.trust li:last-child{border-bottom:0}
-.trust li::before{content:"";position:absolute;left:2px;top:15px;width:10px;height:10px;background:var(--navy);border-radius:2px}
-.trust .note{margin-top:28px;color:var(--ink);font-weight:500}
-@media (max-width:860px){.trust .cols{grid-template-columns:1fr}}
-.contact{background:var(--navy);color:var(--white)}
-.contact .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
-.contact .intro{color:#C9D1E0}
-.channels{display:grid;gap:14px}
-.channel{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 22px;border-radius:10px;
-  background:var(--navy-2);text-decoration:none;transition:box-shadow .15s}
-.channel:hover{box-shadow:inset 0 0 0 2px var(--orange)}
-.channel small{display:block;color:#9AA6BD;font-size:.9rem}
-.channel strong{font-size:1.1rem;font-weight:600;word-break:break-word}
-.channel .go{color:var(--orange);font-weight:700;white-space:nowrap}
-@media (max-width:860px){.contact .wrap{grid-template-columns:1fr}}
-
-footer{background:#0E1830;color:#8E9AB2;padding:28px 0 calc(28px + env(safe-area-inset-bottom,0px));font-size:.95rem}
-footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
-@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "Wreck & Roll", "url": "https://wreckandroll.me/", "logo": "https://wreckandroll.me/favicon.png", "image": "https://wreckandroll.me/og-image.png", "email": "info@wreckandroll.me", "telephone": "+92 313 8427224", "description": "Remote eBay listing management and inventory management for auto wreckers, dismantlers, salvage yards and used auto parts sellers.", "areaServed": ["Australia", "New Zealand", "United Kingdom", "Ireland"], "address": {"@type": "PostalAddress", "addressLocality": "Islamabad", "addressCountry": "PK"}, "sameAs": ["https://www.facebook.com/profile.php?id=61595597305208"]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Who do you work with?", "acceptedAnswer": {"@type": "Answer", "text": "Our main clients are auto wreckers and dismantlers that sell used parts online in Australia, New Zealand, the UK and Ireland. We also work with salvage yards, used auto parts sellers and other online sellers with large parts catalogues."}}, {"@type": "Question", "name": "Do you work in Pinnacle Professional or directly on eBay?", "acceptedAnswer": {"@type": "Answer", "text": "Either. If your yard lists through Pinnacle Professional, we work inside Pinnacle following your yard's process. If you list directly on eBay, we work in your eBay seller account. We work within the setup you already have and don't change how your systems are connected."}}, {"@type": "Question", "name": "Who takes the photos?", "acceptedAnswer": {"@type": "Answer", "text": "You do. Photos and dismantling have to happen at your yard. We take it from there: choosing and ordering photos, finding part numbers, writing listings and keeping records up to date."}}, {"@type": "Question", "name": "How do you access our systems?", "acceptedAnswer": {"@type": "Answer", "text": "Through remote desktop tools such as TeamViewer or HelpWire. You start or approve every session, give us a user account with only the access the job needs, and can remove access at any time."}}, {"@type": "Question", "name": "Is our data kept confidential?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We sign a confidentiality agreement (NDA) before starting, never share your stock, prices or customer details, and delete any working files when the work ends. We don't access banking, payroll or email."}}, {"@type": "Question", "name": "What exactly is in the free trial?", "acceptedAnswer": {"@type": "Answer", "text": "Up to 25 parts processed free: new eBay listings, inventory records, or a mix. It's completed within 5 business days of receiving what we need, you check everything before it goes live, and there's no payment or obligation."}}, {"@type": "Question", "name": "How is the work priced after the trial?", "acceptedAnswer": {"@type": "Answer", "text": "Per listing or per hour, whichever suits your yard, billed monthly after the work is done. There's no lock-in contract. We'll give you a clear quote after the trial."}}, {"@type": "Question", "name": "What hours do you work?", "acceptedAnswer": {"@type": "Answer", "text": "Your business hours. We're based in Islamabad, Pakistan, and schedule our work around Australian, New Zealand, UK and Irish trading hours."}}, {"@type": "Question", "name": "Do you guarantee more sales?", "acceptedAnswer": {"@type": "Answer", "text": "No. Sales depend on your stock, prices and demand. What we can promise is accurate, complete listings and stock records, done consistently."}}]}</script>
 </head>
 <body>
-
-<header>
+<a class="sr" href="#main">Skip to content</a><header class="site-header">
   <div class="wrap bar">
-    <a class="brand" href="#top" aria-label="Wreck &amp; Roll home"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><circle cx="256" cy="256" r="250" fill="#14213D"/><path d="M 147.25,444.36 A 217.50 217.50 0 1 1 422.61,116.19" fill="none" stroke="#F28C38" stroke-width="18.00" stroke-linecap="round"/><path d="M 451.54,150.67 L 437.41,89.10 L 393.36,126.06 Z" fill="#F28C38"/><g transform="translate(84.57,344.91) scale(0.23237179487179488,-0.23237179487179488)"><g transform="translate(740,0)"><path d="M360 11 285 264Q283 269 278 269H240Q235 269 233 263L203 15Q202 8 197.5 4.0Q193 0 186 0H33Q26 0 22.5 4.0Q19 8 20 15L103 685Q104 692 108.0 696.0Q112 700 119 700H413Q503 700 556.0 649.0Q609 598 609 511Q609 501 607 477Q599 411 561.5 361.5Q524 312 466 289Q463 288 462.0 285.5Q461 283 462 281L552 18Q553 16 553 12Q553 7 549.0 3.5Q545 0 538 0H375Q363 0 360 11ZM266 533 252 418Q252 412 257 412H347Q381 412 403.5 432.0Q426 452 426 484Q426 509 408.5 524.0Q391 539 363 539H273Q268 539 266 533Z" fill="#F28C38" stroke="#14213D" stroke-width="34" paint-order="stroke" stroke-linejoin="round"/></g><path d="M197 13 87 683V687Q87 693 91.0 696.5Q95 700 101 700H266Q278 700 280 687L322 364Q322 360 325.0 360.0Q328 360 329 364L434 687Q438 700 452 700H593Q605 700 607 687L639 364Q640 360 643.0 360.0Q646 360 647 364L759 687Q762 700 776 700H941Q949 700 952.0 695.5Q955 691 952 683L697 13Q692 0 680 0H525Q511 0 510 13L483 354Q483 358 480.5 358.0Q478 358 476 354L373 14Q368 0 356 0H211Q206 0 202.0 3.5Q198 7 197 13Z" fill="#FFFFFF" stroke="#14213D" stroke-width="34" paint-order="stroke" stroke-linejoin="round"/><path d="M 1025.1,420.0 L 1075.1,420.0 L 1085.7,470.0 L 1035.7,470.0 Z M 1038.3,482.0 L 1088.3,482.0 L 1098.9,532.0 L 1048.9,532.0 Z M 1087.1,420.0 L 1137.1,420.0 L 1147.7,470.0 L 1097.7,470.0 Z M 1100.3,482.0 L 1150.3,482.0 L 1160.9,532.0 L 1110.9,532.0 Z" fill="#FFFFFF"/></g></svg><b>WRECK <span>&amp;</span> ROLL</b></a>
-    <nav aria-label="Main">
-      <a href="#services">Services</a>
-      <a href="#how">How it works</a>
-      <a href="#why">Why us</a>
-      <a href="#trust">Trust &amp; security</a>
-      <a href="guides/oem-part-numbers.html">Guides</a>
-      <a class="btn" href="#contact">Contact</a>
+    <a class="brand" href="/" aria-label="Wreck &amp; Roll home"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><circle cx="256" cy="256" r="250" fill="#14213D"/><path d="M 147.25,444.36 A 217.50 217.50 0 1 1 422.61,116.19" fill="none" stroke="#F28C38" stroke-width="18.00" stroke-linecap="round"/><path d="M 451.54,150.67 L 437.41,89.10 L 393.36,126.06 Z" fill="#F28C38"/><g transform="translate(84.57,344.91) scale(0.23237179487179488,-0.23237179487179488)"><g transform="translate(740,0)"><path d="M360 11 285 264Q283 269 278 269H240Q235 269 233 263L203 15Q202 8 197.5 4.0Q193 0 186 0H33Q26 0 22.5 4.0Q19 8 20 15L103 685Q104 692 108.0 696.0Q112 700 119 700H413Q503 700 556.0 649.0Q609 598 609 511Q609 501 607 477Q599 411 561.5 361.5Q524 312 466 289Q463 288 462.0 285.5Q461 283 462 281L552 18Q553 16 553 12Q553 7 549.0 3.5Q545 0 538 0H375Q363 0 360 11ZM266 533 252 418Q252 412 257 412H347Q381 412 403.5 432.0Q426 452 426 484Q426 509 408.5 524.0Q391 539 363 539H273Q268 539 266 533Z" fill="#F28C38" stroke="#14213D" stroke-width="34" paint-order="stroke" stroke-linejoin="round"/></g><path d="M197 13 87 683V687Q87 693 91.0 696.5Q95 700 101 700H266Q278 700 280 687L322 364Q322 360 325.0 360.0Q328 360 329 364L434 687Q438 700 452 700H593Q605 700 607 687L639 364Q640 360 643.0 360.0Q646 360 647 364L759 687Q762 700 776 700H941Q949 700 952.0 695.5Q955 691 952 683L697 13Q692 0 680 0H525Q511 0 510 13L483 354Q483 358 480.5 358.0Q478 358 476 354L373 14Q368 0 356 0H211Q206 0 202.0 3.5Q198 7 197 13Z" fill="#FFFFFF" stroke="#14213D" stroke-width="34" paint-order="stroke" stroke-linejoin="round"/><path d="M 1025.1,420.0 L 1075.1,420.0 L 1085.7,470.0 L 1035.7,470.0 Z M 1038.3,482.0 L 1088.3,482.0 L 1098.9,532.0 L 1048.9,532.0 Z M 1087.1,420.0 L 1137.1,420.0 L 1147.7,470.0 L 1097.7,470.0 Z M 1100.3,482.0 L 1150.3,482.0 L 1160.9,532.0 L 1110.9,532.0 Z" fill="#FFFFFF"/></g></svg><b>WRECK <span>&amp;</span> ROLL</b></a>
+    <nav class="nav" aria-label="Main">
+      <a href="/ebay-listing-management/">eBay listings</a>
+      <a href="/inventory-management/">Inventory</a>
+      <a href="/#trial">Free trial</a>
+      <a href="/#faq">FAQ</a>
+      <a href="/guides/oem-part-numbers.html">Guides</a>
+      <a class="btn" href="/#contact">Get a free trial</a>
     </nav>
   </div>
 </header>
-
-<main id="top">
-  <div class="hero">
-    <div class="wrap">
-      <div>
-        <h1>Organize parts.<br><em>Grow your business.</em></h1>
-        <p class="lead">Remote inventory management and digital marketing for vehicle wreckers, auto recyclers and used auto parts businesses. Your stock gets organised, listed online and sold.</p>
-        <div class="ctas">
-          <a class="btn" href="#contact">Talk to us</a>
-          <a class="btn ghost" href="#services">See services</a>
-        </div>
+<main id="main">
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>eBay listing and inventory management for auto wreckers</h1>
+      <p class="lead">We create and manage your eBay listings and keep your stock records accurate, remotely and in your business hours. Through Pinnacle Professional or directly on eBay, whichever your yard uses.</p>
+      <div class="ctas">
+        <a class="btn" href="#trial">See the free 25-part trial</a>
+        <a class="btn wa" href="https://wa.me/923138427224?text=Hi%20Wreck%20%26%20Roll%2C%20I%27d%20like%20to%20ask%20about%20the%20free%2025-part%20trial."><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.6-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>WhatsApp us</a>
       </div>
-      <div class="emblem"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><circle cx="256" cy="256" r="250" fill="#14213D"/><path d="M 147.25,444.36 A 217.50 217.50 0 1 1 422.61,116.19" fill="none" stroke="#F28C38" stroke-width="18.00" stroke-linecap="round"/><path d="M 451.54,150.67 L 437.41,89.10 L 393.36,126.06 Z" fill="#F28C38"/><g transform="translate(84.57,344.91) scale(0.23237179487179488,-0.23237179487179488)"><g transform="translate(740,0)"><path d="M360 11 285 264Q283 269 278 269H240Q235 269 233 263L203 15Q202 8 197.5 4.0Q193 0 186 0H33Q26 0 22.5 4.0Q19 8 20 15L103 685Q104 692 108.0 696.0Q112 700 119 700H413Q503 700 556.0 649.0Q609 598 609 511Q609 501 607 477Q599 411 561.5 361.5Q524 312 466 289Q463 288 462.0 285.5Q461 283 462 281L552 18Q553 16 553 12Q553 7 549.0 3.5Q545 0 538 0H375Q363 0 360 11ZM266 533 252 418Q252 412 257 412H347Q381 412 403.5 432.0Q426 452 426 484Q426 509 408.5 524.0Q391 539 363 539H273Q268 539 266 533Z" fill="#F28C38" stroke="#14213D" stroke-width="34" paint-order="stroke" stroke-linejoin="round"/></g><path d="M197 13 87 683V687Q87 693 91.0 696.5Q95 700 101 700H266Q278 700 280 687L322 364Q322 360 325.0 360.0Q328 360 329 364L434 687Q438 700 452 700H593Q605 700 607 687L639 364Q640 360 643.0 360.0Q646 360 647 364L759 687Q762 700 776 700H941Q949 700 952.0 695.5Q955 691 952 683L697 13Q692 0 680 0H525Q511 0 510 13L483 354Q483 358 480.5 358.0Q478 358 476 354L373 14Q368 0 356 0H211Q206 0 202.0 3.5Q198 7 197 13Z" fill="#FFFFFF" stroke="#14213D" stroke-width="34" paint-order="stroke" stroke-linejoin="round"/><path d="M 1025.1,420.0 L 1075.1,420.0 L 1085.7,470.0 L 1035.7,470.0 Z M 1038.3,482.0 L 1088.3,482.0 L 1098.9,532.0 L 1048.9,532.0 Z M 1087.1,420.0 L 1137.1,420.0 L 1147.7,470.0 L 1097.7,470.0 Z M 1100.3,482.0 L 1150.3,482.0 L 1160.9,532.0 L 1110.9,532.0 Z" fill="#FFFFFF"/></g></svg></div>
+      <p class="who">Built for <strong>auto wreckers and dismantlers that sell used parts online</strong> in Australia, New Zealand, the UK and Ireland.</p>
+    </div>
+    <div>
+      <div class="record" role="img" aria-label="Example of a listing record we prepare">
+        <header><small>Example listing record</small><h2>Honda Accord right side mirror, blind spot, heated</h2></header>
+        <dl>
+          <dt>Part number</dt><dd>OEM, found from the VIN</dd>
+          <dt>Side</dt><dd>Right (driver side, RHD)</dd>
+          <dt>Variant checks</dt><dd>Blind spot, heated, indicator</dd>
+          <dt>Item specifics</dt><dd>Brand, MPN, placement</dd>
+          <dt>Stock record</dt><dd>SKU and yard location</dd>
+          <dt>Status</dt><dd><span class="stamp">Ready for your review</span></dd>
+        </dl>
+      </div>
+      <p class="record-note">An illustration of the details we check for every part.</p>
     </div>
   </div>
+</section>
 
-  <section id="services">
-    <div class="wrap">
-      <h2>What we do</h2>
-      <p class="intro">Two services that work together: get your stock under control, then get it in front of buyers.</p>
-      <div class="services">
-        <div class="service">
-          <h3>Automotive inventory management</h3>
-          <p>Your yard system kept accurate and up to date, so you know what you have and where it is.</p>
-          <ul>
-            <li>Stock entry, cataloguing and cleanup</li>
-            <li>Part details, conditions and locations recorded</li>
-            <li>Experience with yard software such as Pinnacle</li>
-            <li>Duplicate and missing records fixed</li>
-          </ul>
-        </div>
-        <div class="service">
-          <h3>Digital marketing and online sales</h3>
-          <p>Your parts listed where buyers search, with titles and details that help them find the right part.</p>
-          <ul>
-            <li>eBay listings created and managed</li>
-            <li>Clear titles, fitment and descriptions</li>
-            <li>Facebook page and post management</li>
-            <li>Google Business profile setup</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="how" class="how">
-    <div class="wrap">
-      <h2>How it works</h2>
-      <div class="steps">
-        <div class="step"><h3>Review</h3><p>We look at your stock, your yard system and where you sell today.</p></div>
-        <div class="step"><h3>Organise and list</h3><p>We clean up your inventory and get your parts listed online.</p></div>
-        <div class="step"><h3>Keep it moving</h3><p>Ongoing updates as parts come in and go out, with regular reports to you.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="why" class="why">
-    <div class="wrap">
-      <h2>Why work with us</h2>
-      <div class="grid">
-        <div><h3>Focused on wreckers</h3><p>We work only with wreckers, recyclers and used parts sellers, so we know the stock and the buyers.</p></div>
-        <div><h3>Fully remote</h3><p>No extra desk, computer or staff needed at your yard.</p></div>
-        <div><h3>Your hours</h3><p>We work in your business hours, wherever you are.</p></div>
-        <div><h3>Hands-on experience</h3><p>We manage inventory and eBay listings every day for an Australian auto parts business.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="trust" class="trust">
-    <div class="wrap">
-      <h2>Trust, security and accountability</h2>
-      <p class="intro">Letting someone into your systems is a big step. Here is exactly how we earn and protect that trust.</p>
-      <div class="cols">
-        <div class="col">
-          <h3>Confidentiality</h3>
-          <ul>
-            <li>We sign a confidentiality agreement (NDA) before any work starts</li>
-            <li>Your stock, prices and customer details are never shared</li>
-            <li>No client data is kept after the work ends</li>
-          </ul>
-        </div>
-        <div class="col">
-          <h3>You stay in control</h3>
-          <ul>
-            <li>You approve every remote session</li>
-            <li>A separate user account with only the access the job needs</li>
-            <li>No access to banking, payroll or email</li>
-            <li>Remove access at any time</li>
-            <li>Work only during agreed hours, from a dedicated, secured computer</li>
-          </ul>
-        </div>
-        <div class="col">
-          <h3>Accountability</h3>
-          <ul>
-            <li>Free trial: your first 25 parts listed at no cost</li>
-            <li>You check listings before they go live</li>
-            <li>Pay only for finished work, billed monthly after it's done</li>
-            <li>No lock-in contract</li>
-            <li>Regular reports on what was done</li>
-          </ul>
-        </div>
-      </div>
-      <p class="note">We're based in Islamabad, Pakistan, and work your business hours. Happy to meet on a video call before you decide.</p>
-    </div>
-  </section>
-
-  <section id="contact" class="contact">
-    <div class="wrap">
-      <div>
-        <h2>Let's get your parts moving</h2>
-        <p class="intro">Tell us about your yard and what you need. We'll reply within one business day.</p>
-      </div>
-      <div class="channels">
-        <a class="channel" href="mailto:info@wreckandroll.me"><span><small>Email</small><strong>info@wreckandroll.me</strong></span><span class="go">Send email</span></a>
-        <a class="channel" href="https://wa.me/923138427224"><span><small>WhatsApp</small><strong>+92 313 8427224</strong></span><span class="go">Message us</span></a>
-        <a class="channel" href="tel:+923138427224"><span><small>Phone</small><strong>+92 313 8427224</strong></span><span class="go">Call us</span></a>
-        <a class="channel" href="https://www.facebook.com/profile.php?id=61595597305208" target="_blank" rel="noopener"><span><small>Facebook</small><strong>Wreck &amp; Roll</strong></span><span class="go">Visit page</span></a>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer>
+<div class="audience">
   <div class="wrap">
-    <span>&copy; <span id="y">2026</span> Wreck &amp; Roll.</span>
-    <span>Automotive Inventory &amp; Digital Growth</span>
+    <h2>Who we work with</h2>
+    <div>
+      <p>Our primary clients are auto wreckers and dismantlers selling used parts on eBay. We also help:</p>
+      <ul><li>Salvage yards</li><li>Auto recyclers</li><li>Used auto parts sellers</li><li>Online sellers with large parts catalogues</li></ul>
+    </div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <h2 class="h">Two services, one goal: parts that are recorded correctly and easy to buy</h2>
+    <p class="intro">Use one service or both, depending on where your yard needs help.</p>
+    <div class="svc">
+      <article>
+        <h3>eBay listing management</h3>
+        <p>Accurate, complete listings that help buyers find and trust the right part.</p>
+        <ul class="ticks">
+          <li>New listings from your photos and part details</li>
+          <li>Titles with make, model, years, side and part number</li>
+          <li>Descriptions, condition notes and item specifics</li>
+          <li>Improving and updating existing listings</li>
+          <li>Quantity updates and ending sold items</li>
+        </ul>
+        <a class="more" href="/ebay-listing-management/">More about eBay listing management</a>
+      </article>
+      <article>
+        <h3>Inventory management</h3>
+        <p>Stock records you can rely on, so you know what you have and where it is.</p>
+        <ul class="ticks">
+          <li>Stock entry and categorisation in your yard system</li>
+          <li>OEM part numbers recorded for each part</li>
+          <li>SKU, stock number and location organisation</li>
+          <li>Fixing duplicate, missing and outdated records</li>
+          <li>Checks that stock records match your listings</li>
+        </ul>
+        <a class="more" href="/inventory-management/">More about inventory management</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2 class="h">We fit the way your yard already works</h2>
+    <div class="flow">
+      <div><h3>If you list through Pinnacle Professional</h3><p>We work inside Pinnacle: entering parts, part numbers, descriptions and details, and listing the way your yard does it today.</p></div>
+      <div><h3>If you list directly on eBay</h3><p>We work in your eBay seller account: creating listings, filling item specifics, and updating or ending listings as stock changes.</p></div>
+    </div>
+    <p class="flow-note">We don't change how your systems are connected. Tell us your current setup and we'll work within it.</p>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <h2 class="h">How it works</h2>
+    <ol class="steps">
+      <li><h3>Free trial</h3><p>We process up to 25 parts at no cost, so you can judge the quality first.</p></li>
+      <li><h3>You review</h3><p>You check the work before anything goes live, and tell us what to adjust.</p></li>
+      <li><h3>Ongoing support</h3><p>We keep listing and updating records in your hours, billed monthly after the work is done.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="trial" class="trial">
+  <div class="wrap">
+    <div>
+      <h2 class="h">Try it free on 25 parts</h2>
+      <p class="intro">The fastest way to know if we're a fit is to see real work on your own stock. Here is exactly what the trial includes.</p>
+      <div class="ctas"><a class="btn" href="#contact">Request my free trial</a><a class="btn wa" href="https://wa.me/923138427224?text=Hi%20Wreck%20%26%20Roll%2C%20I%27d%20like%20to%20ask%20about%20the%20free%2025-part%20trial."><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.6-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>Ask on WhatsApp</a></div>
+    </div>
+    <div class="terms">
+  <table>
+    <caption>Free 25-part trial: the exact terms</caption>
+    <tr><th scope="row">What you get</th><td>Up to 25 parts processed free: 25 new eBay listings, 25 inventory records created or corrected, or any mix of the two.</td></tr>
+    <tr><th scope="row">What we need</th><td>Photos and basic details for each part, or access to the parts in Pinnacle Professional or your eBay account, plus a remote session you approve.</td></tr>
+    <tr><th scope="row">Turnaround</th><td>Completed within 5 business days of receiving everything above.</td></tr>
+    <tr><th scope="row">Your control</th><td>You check the work before any listing goes live.</td></tr>
+    <tr><th scope="row">Cost</th><td>Free. No payment details, no obligation to continue. One trial per business.</td></tr>
+    <tr><th scope="row">After the trial</th><td>Continue per listing or per hour, billed monthly after the work is done. No lock-in contract.</td></tr>
+  </table>
+</div>
+  </div>
+</section>
+
+<section id="trust">
+  <div class="wrap">
+    <h2 class="h">Your systems, your data, your control</h2>
+    <p class="intro">Giving remote access to your yard system is a big step. Here is how we protect it.</p>
+    <div class="trust-grid">
+      <div><h3>Confidentiality</h3><ul><li>NDA signed before any work starts</li><li>Stock, prices and customer details never shared</li><li>Working files deleted when the work ends</li></ul></div>
+      <div><h3>You stay in control</h3><ul><li>You approve every remote session</li><li>A separate account with only the access needed</li><li>No access to banking, payroll or email</li><li>Remove access at any time</li></ul></div>
+      <div><h3>Accountability</h3><ul><li>You review work before it goes live</li><li>Pay only for finished work, billed monthly</li><li>No lock-in contract</li><li>Regular updates on what was done</li></ul></div>
+    </div>
+    <p class="honest"><strong>Our experience:</strong> we work daily with used auto parts, including Pinnacle Professional, eBay listings and OEM part numbers from Partsouq and Partslink24. See how we work in our <a href="/guides/oem-part-numbers.html">guide to finding OEM part numbers</a>. We're based in Islamabad, Pakistan, and happy to meet on a video call before you decide.</p>
+  </div>
+</section>
+
+<section id="faq" class="alt">
+  <div class="wrap narrow">
+    <h2 class="h">Frequently asked questions</h2>
+    <div class="faq"><details><summary>Who do you work with?</summary><p>Our main clients are auto wreckers and dismantlers that sell used parts online in Australia, New Zealand, the UK and Ireland. We also work with salvage yards, used auto parts sellers and other online sellers with large parts catalogues.</p></details><details><summary>Do you work in Pinnacle Professional or directly on eBay?</summary><p>Either. If your yard lists through Pinnacle Professional, we work inside Pinnacle following your yard&#x27;s process. If you list directly on eBay, we work in your eBay seller account. We work within the setup you already have and don&#x27;t change how your systems are connected.</p></details><details><summary>Who takes the photos?</summary><p>You do. Photos and dismantling have to happen at your yard. We take it from there: choosing and ordering photos, finding part numbers, writing listings and keeping records up to date.</p></details><details><summary>How do you access our systems?</summary><p>Through remote desktop tools such as TeamViewer or HelpWire. You start or approve every session, give us a user account with only the access the job needs, and can remove access at any time.</p></details><details><summary>Is our data kept confidential?</summary><p>Yes. We sign a confidentiality agreement (NDA) before starting, never share your stock, prices or customer details, and delete any working files when the work ends. We don&#x27;t access banking, payroll or email.</p></details><details><summary>What exactly is in the free trial?</summary><p>Up to 25 parts processed free: new eBay listings, inventory records, or a mix. It&#x27;s completed within 5 business days of receiving what we need, you check everything before it goes live, and there&#x27;s no payment or obligation.</p></details><details><summary>How is the work priced after the trial?</summary><p>Per listing or per hour, whichever suits your yard, billed monthly after the work is done. There&#x27;s no lock-in contract. We&#x27;ll give you a clear quote after the trial.</p></details><details><summary>What hours do you work?</summary><p>Your business hours. We&#x27;re based in Islamabad, Pakistan, and schedule our work around Australian, New Zealand, UK and Irish trading hours.</p></details><details><summary>Do you guarantee more sales?</summary><p>No. Sales depend on your stock, prices and demand. What we can promise is accurate, complete listings and stock records, done consistently.</p></details></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div>
+      <h2 class="h">Start your free trial</h2>
+      <p class="intro">Tell us about your yard and how you sell. We reply within one business day. The quickest way to reach us is WhatsApp.</p>
+      <div class="quick">
+        <a class="wa-card" href="https://wa.me/923138427224?text=Hi%20Wreck%20%26%20Roll%2C%20I%27d%20like%20to%20ask%20about%20the%20free%2025-part%20trial."><span><small>WhatsApp</small><strong>+92 313 8427224</strong></span><span class="go">Message us</span></a>
+        <a href="mailto:info@wreckandroll.me"><span><small>Email</small><strong>info@wreckandroll.me</strong></span><span class="go">Send email</span></a>
+        <a href="tel:+923138427224"><span><small>Phone</small><strong>+92 313 8427224</strong></span><span class="go">Call us</span></a>
+        <a href="https://www.facebook.com/profile.php?id=61595597305208" target="_blank" rel="noopener"><span><small>Facebook</small><strong>Wreck &amp; Roll</strong></span><span class="go">Visit page</span></a>
+      </div>
+    </div>
+    <form class="enquiry" action="https://formsubmit.co/info@wreckandroll.me" method="POST">
+      <h3>Send an enquiry</h3>
+      <input type="hidden" name="_subject" value="New enquiry from wreckandroll.me">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://wreckandroll.me/thanks/">
+      <input type="text" name="_honey" class="sr" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="fields">
+        <div><label for="f-name">Your name</label><input id="f-name" name="name" required autocomplete="name"></div>
+        <div><label for="f-biz">Business name</label><input id="f-biz" name="business" required autocomplete="organization"></div>
+        <div><label for="f-email">Email</label><input id="f-email" type="email" name="email" required autocomplete="email"></div>
+        <div><label for="f-phone">Phone or WhatsApp (optional)</label><input id="f-phone" name="phone" autocomplete="tel"></div>
+        <div><label for="f-country">Country</label><select id="f-country" name="country"><option>Australia</option><option>New Zealand</option><option>United Kingdom</option><option>Ireland</option><option>Other</option></select></div>
+        <div><label for="f-service">Service</label><select id="f-service" name="service"><option>eBay listing management</option><option>Inventory management</option><option>Both</option><option>Not sure yet</option></select></div>
+        <div class="full"><label for="f-system">How do you list today?</label><select id="f-system" name="system"><option>Through Pinnacle Professional</option><option>Directly on eBay</option><option>Another yard system</option><option>Not listing online yet</option></select></div>
+        <div class="full"><label for="f-msg">What do you need help with?</label><textarea id="f-msg" name="message" placeholder="For example: we have about 200 parts photographed but not listed."></textarea></div>
+      </div>
+      <div class="form-foot">
+        <button class="btn" type="submit">Request my free trial</button>
+        <p>We use your details only to reply to your enquiry.</p>
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols4">
+      <div><h3>Wreck &amp; Roll</h3><p>eBay listing management and inventory management for auto wreckers, dismantlers and used auto parts sellers. Remote, in your business hours.</p></div>
+      <div><h3>Services</h3><ul><li><a href="/ebay-listing-management/">eBay listing management</a></li><li><a href="/inventory-management/">Inventory management</a></li><li><a href="/#trial">Free 25-part trial</a></li></ul></div>
+      <div><h3>Learn</h3><ul><li><a href="/guides/oem-part-numbers.html">Finding OEM part numbers</a></li><li><a href="/#faq">FAQ</a></li><li><a href="/#trust">Security and confidentiality</a></li></ul></div>
+      <div><h3>Contact</h3><ul><li><a href="mailto:info@wreckandroll.me">info@wreckandroll.me</a></li><li><a href="https://wa.me/923138427224?text=Hi%20Wreck%20%26%20Roll%2C%20I%27d%20like%20to%20ask%20about%20the%20free%2025-part%20trial.">WhatsApp +92 313 8427224</a></li><li><a href="https://www.facebook.com/profile.php?id=61595597305208" target="_blank" rel="noopener">Facebook</a></li></ul></div>
+    </div>
+    <p class="legal">&copy; 2026 Wreck &amp; Roll. Based in Islamabad, Pakistan. Serving Australia, New Zealand, the UK and Ireland.</p>
   </div>
 </footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+<a class="wa-float" href="https://wa.me/923138427224?text=Hi%20Wreck%20%26%20Roll%2C%20I%27d%20like%20to%20ask%20about%20the%20free%2025-part%20trial." aria-label="Chat with us on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.6-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg><span>WhatsApp us</span></a>
 </body>
 </html>
