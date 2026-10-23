@@ -13,13 +13,14 @@
       "url": "/#pricing"
     },
     {
+      "title": "Case studies",
+      "url": "/case-studies/",
+      "match": "/case-studies/"
+    },
+    {
       "title": "Guides",
       "url": "/guides/",
       "match": "/guides/"
-    },
-    {
-      "title": "FAQ",
-      "url": "/#faq"
     }
   ]
 }
