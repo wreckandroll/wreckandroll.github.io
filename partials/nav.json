@@ -1,0 +1,21 @@
+{
+  "nav": [
+    {
+      "title": "eBay listings",
+      "url": "/ebay-listing-management/"
+    },
+    {
+      "title": "Inventory",
+      "url": "/inventory-management/"
+    },
+    {
+      "title": "Guides",
+      "url": "/guides/",
+      "match": "/guides/"
+    },
+    {
+      "title": "FAQ",
+      "url": "/#faq"
+    }
+  ]
+}

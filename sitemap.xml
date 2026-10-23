@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://wreckandroll.me/</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://wreckandroll.me/ebay-listing-management/</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://wreckandroll.me/inventory-management/</loc><lastmod>2026-10-21</lastmod></url>
-  <url><loc>https://wreckandroll.me/guides/oem-part-numbers.html</loc><lastmod>2026-10-21</lastmod></url>
+  <url><loc>https://wreckandroll.me/</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://wreckandroll.me/ebay-listing-management/</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://wreckandroll.me/inventory-management/</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://wreckandroll.me/guides/</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://wreckandroll.me/guides/oem-part-numbers.html</loc><lastmod>2026-10-23</lastmod></url>
+  <url><loc>https://wreckandroll.me/privacy/</loc><lastmod>2026-10-23</lastmod></url>
 </urlset>

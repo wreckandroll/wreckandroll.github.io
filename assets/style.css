@@ -346,3 +346,13 @@ picture img{display:block;width:100%;height:auto}
 .wa-label svg{width:26px;height:26px;flex:0 0 26px;color:var(--white)}
 @media (max-width:340px){.header-cta{display:none}}
 .contact .wrap > *{min-width:0}.quick a > span{min-width:0}.quick strong{overflow-wrap:anywhere}
+
+.hero .no-access{margin-top:14px;color:#C9D1E0;font-size:.98rem;max-width:36em}
+
+/* Guides index */
+.guide-list{display:grid;gap:16px;margin-top:32px}
+.guide-card{display:block;padding:24px;border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--ink);background:var(--white)}
+.guide-card:hover{border-color:var(--orange)}
+.article .guide-card h2{margin-top:0;font-size:1.35rem}
+.article .guide-card p{color:var(--muted);margin-top:8px}
+.guide-card span{display:inline-block;margin-top:12px;color:var(--orange);font-weight:700}
