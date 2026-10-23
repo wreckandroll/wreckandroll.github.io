@@ -356,3 +356,9 @@ picture img{display:block;width:100%;height:auto}
 .article .guide-card h2{margin-top:0;font-size:1.35rem}
 .article .guide-card p{color:var(--muted);margin-top:8px}
 .guide-card span{display:inline-block;margin-top:12px;color:var(--orange);font-weight:700}
+
+/* Named contact */
+.contact-person{display:flex;align-items:center;gap:14px;margin-top:20px}
+.contact-person .avatar{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;flex:0 0 48px;border-radius:50%;background:var(--orange);color:var(--navy);font-weight:800;font-size:1.3rem}
+.contact-person strong{display:block;font-size:1.08rem;color:var(--white)}
+.contact-person span span,.contact-person > span:last-child{color:#C9D1E0;font-size:.97rem}
