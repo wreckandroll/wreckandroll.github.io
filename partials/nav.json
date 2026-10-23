@@ -9,6 +9,10 @@
       "url": "/inventory-management/"
     },
     {
+      "title": "Pricing",
+      "url": "/#pricing"
+    },
+    {
       "title": "Guides",
       "url": "/guides/",
       "match": "/guides/"
