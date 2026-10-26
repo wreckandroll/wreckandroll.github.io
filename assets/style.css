@@ -413,3 +413,6 @@ picture img{display:block;width:100%;height:auto}
 /* Upright section headings; italic kept for the brand and page titles */
 h2.h,.svc h3,.terms caption,form.enquiry h3,.band h2,.article h2,.article h3{font-style:normal}
 @media (min-width:1000px){.case-grid{grid-template-columns:repeat(3,1fr)}}
+.ba-img{display:block;width:100%;max-width:260px;height:auto;margin:14px 0 4px;border-radius:8px;border:1px solid var(--line)}
+.case-grid{grid-template-columns:1fr 1fr}
+@media (max-width:760px){.case-grid{grid-template-columns:1fr}}
