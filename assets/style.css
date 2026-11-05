@@ -416,3 +416,6 @@ h2.h,.svc h3,.terms caption,form.enquiry h3,.band h2,.article h2,.article h3{fon
 .ba-img{display:block;width:100%;max-width:260px;height:auto;margin:14px 0 4px;border-radius:8px;border:1px solid var(--line)}
 .case-grid{grid-template-columns:1fr 1fr}
 @media (max-width:760px){.case-grid{grid-template-columns:1fr}}
+
+.also{margin-top:26px;font-size:1.02rem;color:var(--muted)}
+.also a{font-weight:700}
