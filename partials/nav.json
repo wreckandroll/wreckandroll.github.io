@@ -9,6 +9,11 @@
       "url": "/inventory-management/"
     },
     {
+      "title": "Sales",
+      "url": "/sales-support/",
+      "match": "/sales-support/"
+    },
+    {
       "title": "Pricing",
       "url": "/#pricing"
     },

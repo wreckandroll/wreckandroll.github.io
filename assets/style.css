@@ -419,3 +419,6 @@ h2.h,.svc h3,.terms caption,form.enquiry h3,.band h2,.article h2,.article h3{fon
 
 .also{margin-top:26px;font-size:1.02rem;color:var(--muted)}
 .also a{font-weight:700}
+
+@media (min-width:901px){#services .svc{grid-template-columns:repeat(3,1fr)}#services .svc article + article{border-left:1px solid var(--line);border-top:0}}
+@media (min-width:901px) and (max-width:1120px){.bar .nav{gap:16px}.bar .nav a{font-size:.95rem}.cta-long{display:none}.bar .brand b{font-size:1.15rem}}
